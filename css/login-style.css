@@ -1,0 +1,87 @@
+/* Estilos generales */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.login-container {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #fff;
+    padding: 0px;
+    border: none;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #000;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #99e922;
+    border-left: 1px solid #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #99e922;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4af;
+}
+
+.error-message {
+    color: #f00;
+    margin-top: 10px;
+    font-size: 15px;
+}

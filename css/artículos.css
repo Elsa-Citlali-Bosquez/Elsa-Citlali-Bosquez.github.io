@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background:#000;
+    color: #ffe;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(https://st5.depositphotos.com/2470337/68163/v/380/depositphotos_681637594-stock-illustration-abstract-vector-green-cyberpunk-halftone.jpg) fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    -snap-align: end;
+    scroll-snap-stop: always;
+}
+
+
+body, html {
+    scroll-snap-type: x mandatory;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 60px;
+    width: 350px;
+    height: 300px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+}
+
+.container .item{
+    background-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(160deg, #000, #6ae05a 100%);
+    flex: 0 0 100%;
+    vertical-align: middle;
+    padding: 24px;
+    border-radius: 10px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.container .item:hover{
+    cursor: pointer;
+}
+
+.container .item span {
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+}
+
+
+.container .item button {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 180px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}

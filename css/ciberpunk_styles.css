@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background:#000;
+    color: #ffe;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(https://st5.depositphotos.com/2470337/68163/v/380/depositphotos_681637594-stock-illustration-abstract-vector-green-cyberpunk-halftone.jpg) fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 25px #f0f;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 90px;
+    margin-bottom: 0;
+    text-shadow: 0 0 15px #f0a;
+}
+
+.box {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm1vM2lqNGhiN2Z6ZmQ4aGRhejFyaHY3aG5uMXF1cTV5aW54djNhayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jx4jKhrKvifvCZtyN5/giphy.webp") center / auto fixed #6fa
+}
+
+
+
+ol li {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0;
+    margin-bottom: 0;
+    text-shadow: 0 0 15px #f0a;
+}
+
+.box1 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNtMmlwOW95emZsejU3bGZsMnBhMGo5anc2cjQwdjAwMDlyM3lueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SUcnmocyRKkfSil9xd/giphy.webp") top / auto fixed #6fa
+}
+
+.box2 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSgBbZiLVKV_rrTgN5ZrFYsyKU1ehBUGp6rw&s") center / auto fixed #6fa
+}
+
+.box3 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://img.freepik.com/fotos-premium/paisajes-urbanos-cyberpunk-estetica-cyberpunk-que-incorpora-luces-neon-elementos-futuristas_469014-334.jpg") center / auto fixed #6fa
+}
+
+.box4 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTJ5ajdjcm5qdndndnJ2Y3EzYWNhYjNuczZybDdqY3Y5OHo4aXNpcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12CSpwCtoy1Vfy/giphy.webp") center / auto fixed #6fa
+}
+
+
+.box5 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3NneDB0YTM4ZmQ4ODJxaWRqYzBydmFjbGQzajdxcGNiMXpmdmY1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imKrSqrDxAuvS/200.webp") center / auto fixed #6fa
+}
+
+
+
+.box6 {
+    max-width: 100%;
+    height: 300px;
+    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHJvd3VkNXBtOWFxZmN1eHVrams0aXp4MHdnMjd5YWpta3MzOG5oaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fA7rLtaJDIWEzU57CT/giphy.webp") center / auto fixed #6fa
+}

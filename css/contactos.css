@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(https://st5.depositphotos.com/2470337/68163/v/380/depositphotos_681637594-stock-illustration-abstract-vector-green-cyberpunk-halftone.jpg) fixed;
+
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+
+form {
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin:auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form_input{
+    padding: 6px 20px;
+
+}
+
+
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 15px #0003;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+    
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 102px;
+    resize: none;
+    font-family: sans-serif;
+}
+

@@ -1,0 +1,56 @@
+/* Estilos para el dashboard tipo blog */
+body {
+    font-family: Arial, sans-serif;
+    background:#000;
+    color: #ffe;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(https://st5.depositphotos.com/2470337/68163/v/380/depositphotos_681637594-stock-illustration-abstract-vector-green-cyberpunk-halftone.jpg) fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+article p {
+    line-height: 1.6;
+}
